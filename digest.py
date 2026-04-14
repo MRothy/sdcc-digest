@@ -52,7 +52,6 @@ FEEDS: dict[str, list[tuple[str, str]]] = {
     "Comics & Pop Culture News": [
         ("Bleeding Cool – SDCC tag",      "https://bleedingcool.com/tag/sdcc/feed/"),
         ("Bleeding Cool – Conventions",   "https://bleedingcool.com/pop-culture/events/conventions/san-diego-comic-con/feed/"),
-        ("ComicBook.com – SDCC tag",      "https://comicbook.com/tag/sdcc/feed/"),
     ],
 }
 
