@@ -2,8 +2,8 @@ name: SDCC Digest
 
 on:
   schedule:
-    - cron: "0 8 * * 1"       # Every Monday 08:00 UTC year-round
-    - cron: "0 8 1-31 7 *"    # Every day in July
+    - cron: "0 8 * 1-6,8-12 1,4"  # Every Monday & Thursday, non-July months
+    - cron: "0 8 * 7 *"            # Every day in July
   workflow_dispatch:        # Manual trigger
 
 env:
